@@ -2,6 +2,11 @@
   "name": "xmutil-js",
   "version": "1.0.0",
   "description": "xmutil bindings for JavaScript",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bpowers/xmutil-js"
+  },
+  "homepage": "https://github.com/bpowers/xmutil-js",
   "module": "lib/index.js",
   "main": "lib-node/index.js",
   "types": "lib/index.d.ts",
