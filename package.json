@@ -2,9 +2,10 @@
   "name": "xmutil-js",
   "version": "1.0.0",
   "description": "xmutil bindings for JavaScript",
-  "main": "xmutil.js",
-  "license": "ISC",
+  "main": "index.js",
+  "license": "MIT",
   "devDependencies": {
-    "acorn": "^8.0.4"
+    "acorn": "^8.0.4",
+    "typescript": "^4.1.3"
   }
 }

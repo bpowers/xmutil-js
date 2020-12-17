@@ -1,5 +1,4 @@
-CMake*
-cmake*
-/lib*.a
+/cmake-*
 /node_modules
+/build
 Makefile

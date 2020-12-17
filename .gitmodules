@@ -1,0 +1,4 @@
+[submodule "third_party/xmutil"]
+	path = third_party/xmutil
+	url = https://github.com/bpowers/xmutil
+	branch = bpowers/linux
