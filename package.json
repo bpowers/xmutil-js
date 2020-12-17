@@ -21,6 +21,6 @@
   },
   "scripts": {
     "build": "tsc && tsc -p tsconfig.node.json && cp -a src/xmutil.wasm lib && cp -a src/xmutil.wasm lib-node && yarn eslint . --ext .js,.ts",
-    "format":  "prettier --write \"src/**/*.ts\" \"src/**/*.js\""
+    "format":  "prettier --write \"src/**/*.ts\""
   }
 }
