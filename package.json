@@ -2,10 +2,17 @@
   "name": "xmutil-js",
   "version": "1.0.0",
   "description": "xmutil bindings for JavaScript",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "module": "lib/index.js",
   "license": "MIT",
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.10.0",
+    "@typescript-eslint/parser": "^4.10.0",
     "acorn": "^8.0.4",
+    "eslint": "^7.15.0",
     "typescript": "^4.1.3"
+  },
+  "scripts": {
+    "build": "tsc && cp -a src/xmutil.wasm lib && yarn eslint . --ext .js,.ts"
   }
 }

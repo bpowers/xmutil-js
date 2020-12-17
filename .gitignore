@@ -1,4 +1,6 @@
+*~
 /cmake-*
 /node_modules
 /build
-Makefile
+/lib
+/yarn-error.log
