@@ -1,0 +1,10 @@
+{
+  "name": "xmutil-js",
+  "version": "1.0.0",
+  "description": "xmutil bindings for JavaScript",
+  "main": "xmutil.js",
+  "license": "ISC",
+  "devDependencies": {
+    "acorn": "^8.0.4"
+  }
+}
