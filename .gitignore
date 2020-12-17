@@ -3,4 +3,6 @@
 /node_modules
 /build
 /lib
+/lib-node
 /yarn-error.log
+/.idea
